@@ -20,6 +20,6 @@ app.use((req, res) => {
     res.status(404).json({ error: 'Ruta no encontrada' });
 });
 
-app.listen(process.env.PORT, () =>
-    console.log(`Servidor en puerto ${process.env.PORT}`)
-);
+
+
+export default app;
